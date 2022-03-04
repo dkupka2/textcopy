@@ -1,11 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
-#define FILE_IN argv[1] 
-#define DEFAULT_FILE_OUT "file.out"
-#define MODE_READ "r"
-#define MODE_WRITE "w"
+#include "defs.h"
 
 FILE * create_file(FILE *fp, char *filename) {
   if (NULL == (fp = fopen(filename, MODE_WRITE))) {
