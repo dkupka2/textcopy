@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 #include "textcopy.h"
 
 #define FILE_IN argv[1] 
