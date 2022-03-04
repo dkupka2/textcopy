@@ -1,0 +1,2 @@
+echo gcc -o textcopy main.c textcopy.c
+gcc -o textcopy main.c textcopy.c
